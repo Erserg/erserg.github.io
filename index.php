@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Piroll Design Inc.</title>
+  <meta name="description" content="Fake website practice">
+
+  <!-- Lien vers Bootstrap 4 et la feuille CSS personnalisée -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icones issus de Font Awesome, n'existant plus de base dans Bootstrap 4 -->
+  <script src="https://kit.fontawesome.com/e1f85b40a8.js"></script>
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+
+    <!-- ======== HOME ======== -->
+
+    <div id="banner">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img id="logo" src="images/image2vector.svg" class="mt-3 ml-5" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mt-3 ml-auto mr-5">
+              <li class="nav-item active">
+                <a class="nav-link" href="#banner">HOME<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work_process">PROCESS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="jumbotron row">
+        <div class="col-lg-6 offset-lg-6 mb-5">
+          <h1>We Design and Develop</h1><br />
+          <p>We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p><br />
+          <button type="button" class="btn btn-primary btn-lg">CONTACT US</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ======== ABOUT US ======== -->
+
+    <div class="jumbotron row" id="about">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>About Us</h2><br />
+        <p>Divide have don't man wherein air fourth. Own itself make have night won't make. 
+          A you under Seed appear which good give. Own give air without fowl moveth dry first 
+        heaven fruit, dominion she'd won't very all.</p><br />
+        <img src="images/signature.png" alt="signature">
+      </div>
+    </div>
+
+
+    <!-- ======== SKILLS ======== -->
+
+    <div class="jumbotron row" id="skills">
+      <div class="col-lg-6" id="skills_text">
+        <h2>Professional Skills</h2><br />
+        <p>UI/UX DESIGN &nbsp; &nbsp; 75%</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          </div>
+        </div>
+        <p>WEB DEVELOPMENT &nbsp; &nbsp; 90%</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          </div>
+        </div>
+        <p>MARKETING &nbsp; &nbsp; 65%</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+          </div>
+        </div>
+      </div>
+
+      <div class="d-none d-lg-block col-lg-6" id="image_skills"></div>
+    </div>
+
+
+    <!-- ======== NUMBERS ======== -->
+
+    <div class="jumbotron row" id="numbers">
+
+      <div class="col-12 col-md-6 col-lg-3 number">
+        <div class="row">
+          <div class="col-4 col-md-5 col-lg-3">
+            <i class="fas fa-briefcase fa-inverse fa-3x"></i>
+          </div>
+          <div class="col-8 col-md-7 col-lg-9">
+            <h3>548</h3>
+            <p>PROJECTS COMPLETED</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 number">
+        <div class="row">
+          <div class="col-4 col-md-5 col-lg-3">
+            <i class="fas fa-clock fa-inverse fa-3x"></i>
+          </div>
+          <div class="col-8 col-md-7 col-lg-9">
+            <h3>1465</h3>
+            <p>WORKING HOURS</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 number">
+        <div class="row">
+          <div class="col-4 col-md-5 col-lg-3">
+            <i class="far fa-star fa-inverse fa-3x"></i>
+          </div>
+          <div class="col-8 col-md-7 col-lg-9">
+            <h3>612</h3>
+            <p>POSITIVE FEEDBACKS</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 number">
+        <div class="row">
+          <div class="col-4 col-md-5 col-lg-3">
+            <i class="far fa-heart fa-inverse fa-3x"></i>
+          </div>
+          <div class="col-8 col-md-7 col-lg-9">
+            <h3>735</h3>
+            <p>HAPPY CLIENTS</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- ======== WORK ======== -->
+
+    <div class="jumbotron row" id="work">
+      <div class="row">
+        <div class="col-6 col-md-3 col-lg-3">
+          <a href="#"><img class="img-fluid" src="images/product1.jpg" alt="produit"></a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <a href="#"><img class="img-fluid" src="images/product2.jpg" alt="produit"></a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <a href="#"><img class="img-fluid" src="images/product7.jpg" alt="produit"></a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <a href="#"><img class="img-fluid" src="images/product4.jpg" alt="produit"></a>
+        </div>                
+      </div>
+      <div class="row">
+        <div class="d-none d-lg-block col-lg-3">
+          <a href="#"><img class="img-fluid" src="images/product6.jpg" alt="produit"></a>
+        </div>
+        <div class="d-none d-lg-block col-lg-3">
+          <a href="#"><img class="img-fluid" src="images/product5.jpg" alt="produit"></a>
+        </div>
+        <div class="d-none d-lg-block col-lg-3">
+          <a href="#"><img class="img-fluid" src="images/product3.jpg" alt="produit"></a>
+        </div>
+        <div class="d-none d-lg-block col-lg-3">
+          <a href="#"><img class="img-fluid" src="images/product8.jpg" alt="produit"></a>
+        </div>
+      </div>  
+    </div>
+
+    <a data-toggle="collapse" href="#testcollapse" role="button" aria-controls="testcollapse" aria-expanded="false" id="load_more_link">
+      <div class="row" id="load_more"> 
+        <div class="col-12">   
+          <p>LOAD MORE WORK</p>
+        </div>
+      </div>
+    </a>
+    <div class="collapse" id="testcollapse">
+      <div class="jumbotron row" id="more_work">
+        <div class="row">
+          <div class="col-6 col-md-3 col-lg-3">
+            <a href="#"><img class="img-fluid" src="images/product1.jpg" alt="produit"></a>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3">
+            <a href="#"><img class="img-fluid" src="images/product2.jpg" alt="produit"></a>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3">
+            <a href="#"><img class="img-fluid" src="images/product7.jpg" alt="produit"></a>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3">
+            <a href="#"><img class="img-fluid" src="images/product4.jpg" alt="produit"></a>
+          </div>                
+        </div>
+      </div> 
+    </div>
+
+
+    <!-- ======== WORK PROCESS ======== -->
+
+    <div class="jumbotron row" id="work_process">
+      <div class="col-12">
+        <h2 class="text-center">Our Work Process</h2>
+        <p class="text-center">Was years it seasons was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12" id="video">
+        <div class="embed-responsive embed-responsive-21by9">
+          <video src="images/video.mp4" controls poster="images/video_background2.jpg"></video>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ======== SERVICES ======== -->
+
+    <div class="jumbotron row" id="services">
+        <div class="col-6 col-lg-3">
+          <p><i class="far fa-gem fa-3x"></i></p>
+          <p><strong>UI / UX DESIGN</strong></p>
+          <p>Be set fourth land god darkness make it wherein own</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p><i class="fas fa-laptop-code fa-3x"></i></p>
+          <p><strong>WEB DEVELOPMENT</strong></p>
+          <p>A she'd them bring void moving third she'd kind fill</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p><i class="fas fa-mobile-alt fa-3x"></i></p>
+          <p><strong>APP / MOBILE</strong></p>
+          <p>Dominion man second spirit he, earth they're creeping</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p><i class="fas fa-gamepad fa-3x"></i></p>
+          <p><strong>GAME DESIGN</strong></p>
+          <p>Morning his saying moveth it multiply appear life be</p>
+        </div>                
+        <div class="col-6 col-lg-3">
+          <p><i class="far fa-paper-plane fa-3x"></i></p>
+          <p><strong>SEO / MARKETING</strong></p>
+          <p>Give won't after land fill creeping meat you, may</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p><i class="far fa-star fa-3x"></i></p>
+          <p><strong>PHOTOGRAPHY</strong></p>
+          <p>Creepeth one seas cattle grass give moving saw give</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p><i class="fas fa-magic fa-3x"></i></p>
+          <p><strong>GRAPHIC DESIGN</strong></p>
+          <p>Open, great whales air rule for, fourth life whales</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p><i class="fas fa-fill-drip fa-3x"></i></p>
+          <p><strong>ILLUSTRATIONS</strong></p>
+          <p>Whales likeness hath, man kind for them air two won't</p>
+        </div>                
+    </div>
+
+
+    <!-- ======== TESTIMONIALS ======== -->
+
+    <div class="jumbotron row" id="testimonials">
+      <div class="col-12">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p><strong>“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap. ”</strong></p>
+              <p>MICHAEL HOPKINS</p>
+            </div>
+            <div class="carousel-item">
+              <p><strong>“ WOW. Much impressive. Such beautiful. ”</strong></p>
+              <p>DOGE</p>
+            </div>
+            <div class="carousel-item">
+              <p><strong>“ My aesthetic is pretty classic. I like to keep things simple but appreciate the details. ”</strong></p>
+              <p>JESSICA JUNG</p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ======== CLIENTS ======== -->
+
+    <div class="row" id="clients">
+      <div class="col-6 col-md-4 col-lg-2 offset-lg-1 text-center">
+        <img src="images/client1.png" alt="client">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 text-center">
+        <img src="images/client2.png" alt="client">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 text-center">
+        <img src="images/client3.png" alt="client">
+      </div>
+      <div class="col-6 col-md-3 offset-md-3 col-lg-2 offset-lg-0 text-center">
+        <img src="images/client4.png" alt="client">
+      </div>
+      <div class="col-12 col-md-3 col-lg-2 text-center">
+        <img src="images/client5.png" alt="client">
+      </div>
+    </div>
+
+
+    <!-- ======== CONTACT ======== -->
+
+    <div class="jumbotron row" id="contact">
+
+      <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+        <h3>Need a Project ?</h3><br />
+        <p>Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p><br />
+      </div>
+
+      <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2"> 
+        <form>
+          <div class="form-row">
+
+            <div class="form-group col-lg-6">
+              <label class="sr-only" for="inputName">Name</label>
+              <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Your name">
+            </div>
+
+            <div class="form-group col-lg-6">
+              <label class="sr-only" for="inputEmail">Email</label>
+              <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Your Email">
+            </div>
+
+          </div>
+
+          <div class="form-group">
+            <label class="sr-only" for="inputTitle">Title</label>
+            <input type="text" class="form-control form-control-lg" id="inputTitle" placeholder="Your Title">
+          </div>
+
+          <div class="form-group">
+            <label class="sr-only" for="inputComment">Comment</label>
+            <textarea class="form-control form-control-lg" id="inputComment" rows="5" placeholder="Your Comment"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+        </form> 
+      </div>
+
+    </div>    
+
+
+    <!-- ======== FOOTER ======== -->
+
+    <footer>
+      <div class="row" id="footer">
+        <div class="col-12 col-md-7 col-lg-3">
+          <p><strong>Piroll Design, Inc.</strong></p>
+          <p>© 2017 Piroll. All rights reserved.<br />
+          Designed by robirurk.</p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-3 offset-lg-1">
+          <p>hello@pirolltheme.com<br />
+          +44 987 065 908 </p>
+        </div>   
+        <div class="col-4 col-lg-1">
+          <p><a href="#banner">Project</a><br />
+            <a href="#about">About</a><br />
+            <a href="#services">Services</a><br />
+            <a href="#">Career</a></p>
+          </div>
+          <div class="col-4 col-lg-1">
+            <p><a href="#">News</a><br />
+              <a href="#">Events</a><br />
+              <a href="#contact">Contact</a><br />
+              <a href="#">Legals</a></p>
+            </div>
+            <div class="col-4 col-lg-1 offset-lg-1">
+              <p><a href="#">Facebook</a><br />
+                <a href="#">Twitter</a><br />
+                <a href="#">Instagram</a><br />
+                <a href="#">Dribbble</a></p>
+              </div>        
+            </div>
+          </footer>
+
+        </div>
+
+        <!-- JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- Fichier js pour le Scrollspy fluide -->
+        <script src="js/smooth-scroll.polyfills.min.js"></script>
+
+        <!-- Execution du script du Scrollspy fluide -->
+        <script>
+          var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+
+      </body>
+      </html>
+
